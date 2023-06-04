@@ -1,0 +1,54 @@
+<!-- <div class="ion-page " id="main-content"> -->
+<div class="container-margin">
+  <ion-header class="header-style">
+    <ion-toolbar>
+      <ion-buttons slot="end">
+        <ion-menu-button menu="main-menu"></ion-menu-button>
+      </ion-buttons>
+      <ion-row class="ion-align-items-center ion-justify-content-between">
+        <span class="ion-margin-start">{{printName}}</span>
+        <ion-badge class="trophy-badge">
+          <img src="assets/icon/trophy.svg" alt="trophy"> 
+          <span class="trophy-text">0 points</span>
+        </ion-badge>
+      </ion-row>
+    </ion-toolbar>
+  </ion-header>
+</div>
+<ion-content class="no-scroll" slot="end" side="end">
+    <ion-grid class="learning-grid">
+      <ion-row class="learn">
+        <ion-col size="2" class="home-template">
+          <ion-icon class="learn-icon" name="caret-forward-outline"></ion-icon>
+        </ion-col>
+        <ion-col size="9" class="home-template">
+          <div class="learn-text">
+            <div class='font-20-bold'>LEARN <br> or <br> RESUME</div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  <ion-grid class="option-grid">
+    <ion-row>
+      <ion-col class="home-template learn-course">
+        <img src="assets/icon/learn.svg" alt="home-images">
+        <div class="template-text ion-text-uppercase">learn Course</div>
+      </ion-col>
+      <ion-col class="home-template create-open-lab">
+        <img src="assets/icon/create.svg" alt="home-images">
+        <div class="template-text ion-text-uppercase">Create open labs</div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="home-template build-tinker">
+        <img src="assets/icon/setting.svg" alt="home-images">
+        <div class="template-text ion-text-uppercase">Build tinker</div>
+      </ion-col>
+      <ion-col class="home-template share-comunity">
+        <img src="assets/icon/people.svg" alt="home-images">
+        <div class="template-text ion-text-uppercase">Share comunity</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
