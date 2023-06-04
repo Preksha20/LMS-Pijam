@@ -9,7 +9,6 @@ export class CardTemplateComponent  implements OnInit {
  @Input() data;
  getUrl(url:string) {
   if(url.length<=11){
-    console.log(`https://www.youtube.com/embed/${url} | safe`)
     return `https://www.youtube.com/embed/${url}`
     
   }
